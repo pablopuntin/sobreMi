@@ -1,0 +1,305 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.centrado {
+	text-align: center;
+}
+
+.header {
+	height: 100vh;
+	background-image: url(../img/fondoHeader.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.header1 {
+	height: 60vh;
+	background-image: url(../img/fondoHeader.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.header2 {
+	height: 40vh;
+	background-image: url(../img/fondoHeader.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.animacion {
+	font-size: 2 em;
+	font-family: Arial, Helvetica, sans-serif;
+	align-items: center;
+	color: rgb(78, 78, 80);
+}
+
+/*estilos de letras efecto maquina de escribir con js*/
+
+h1 {
+	font-size: 3rem;
+	font-family: "Times New Roman", Times, serif;
+	align-items: center;
+	color: rgb(78, 78, 80);
+}
+
+/*fin de estilo*/
+
+.fondo {
+	background-image: radial-gradient(
+		circle at 50% 20.87%,
+		#dafffa 0,
+		#c5fff7 10%,
+		#aefff5 20%,
+		#92fff3 30%,
+		#70fcf2 40%,
+		#3cf2f2 50%,
+		#00e7f3 60%,
+		#00ddf6 70%,
+		#00d4fa 80%,
+		#00cbff 90%,
+		#00c2ff 100%
+	);
+}
+/*
+h2 {
+	color: blue;
+	font-size: 8rem;
+	font-family: 'Times New Roman', Times, serif;
+}*/
+
+.text-exp {
+	font-size: 1.2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-justify: auto;
+}
+
+.img-galeria {
+	width: 100%;
+	height: 300px;
+	margin: 2px;
+}
+
+.img-carrusel {
+	height: 450px;
+}
+
+/*estilos seccion habilidades*/
+
+.img-habil {
+	width: 70%;
+	height: auto;
+}
+.fondo-body {
+	background-color: darkgray;
+}
+
+.fondo-habil {
+	background: rgb(164, 172, 170);
+}
+
+.barra-ux {
+	width: 80%;
+}
+
+.barra-ht {
+	width: 100%;
+}
+
+.barra-css {
+	width: 90%;
+}
+
+.barra-js {
+	width: 80%;
+}
+
+.barra-j {
+	width: 80%;
+}
+
+.barra-h {
+	height: 40px;
+}
+
+.txt-barra {
+	width: 100%;
+	font-size: 1.9rem;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(100, 98, 98);
+	text-align: center;
+}
+
+.svg {
+	font-size: 10rem;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(226, 95, 95);
+	transition: color 0.5s;
+}
+
+.svg:hover {
+	color: rgb(209, 145, 145);
+}
+
+.borde {
+	border-bottom: black 4px groove;
+	border-right: black 4px groove;
+	border-left: black 4px groove;
+}
+
+/*clases de los iconos del footer de font awesome*/
+/*efecto para hacer degradado sobre un texto o imagen svg
+background-image: linear-gradient(to right, orange, #ec38bc, #7303c0, cyan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    */
+.face {
+	font-size: 4rem;
+	color: blue;
+}
+
+.linkedin {
+	font-size: 4rem;
+	color: rgb(110, 119, 200);
+}
+
+.twitter {
+	font-size: 4rem;
+	color: rgb(104, 174, 245);
+}
+
+.bg-footer {
+	background: rgb(245, 234, 234);
+}
+
+.alinear {
+	align-content: space-around;
+}
+
+/*estilos para la galeria con modal*/
+/* Style the Image Used to Trigger the Modal */
+img {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+Img:hover {
+	opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 10px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	margin-top: 50px;
+	display: block;
+	width: 90%;
+	max-width: 730px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 90%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.6s;
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+	from {
+		-webkit-transform: scale(0);
+	}
+	to {
+		-webkit-transform: scale(1);
+	}
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+	.modal-content {
+		width: 85%;
+	}
+}
+
+.img-galeria {
+	width: 100%;
+	height: 300px;
+	margin: 2px;
+}
+/*fin de estilos de la galeria*/
+
+.img-mapa {
+	width: 100%;
+	height: auto;
+}

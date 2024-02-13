@@ -1,0 +1,122 @@
+body{
+  background: rgb(0,0,0);
+}
+.tomato {
+  background: rgb(223, 168, 158);
+}
+.rebeca {
+  background: rebeccapurple;
+}
+.icon {
+  font-size: 150px;
+}
+.letraTamaño {
+  font-size: 21px;
+}
+footer {
+  background: hsl(0, 36%, 96%);
+}
+.fondo {
+  background: hsl(0, 36%, 96%);
+}
+.ancla {
+  font-size: 18px;
+  color: rgb(238, 92, 34);
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+}
+/*no visitado*/
+a: :visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: orchid;
+}
+/*INTENTO DE CLASES PARA HACER LOS SKILLS
+ Make sure that padding behaves as expected* 
+ {box-sizing:border-box}
+
+/* Container for skill bars */
+.container1 {
+  width: 100%; /* Full width */
+  background-color: #dd4f6e77; /* Grey background */
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  margin-top: 10px;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+} /* Green */
+.css {
+  width: 70%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 60%;
+  background-color: #f44336;
+} /* Red */
+.java {
+  width: 70%;
+  background-color: #552;
+} /* Dark Grey */
+.python{
+  width: 60%;
+  background-color: #631;
+}
+.linux{
+  width: 80%;
+  background-color: blueviolet;
+}
+.office{
+  width: 100%;
+  background-color: cornflowerblue;
+}
+.hblandas{
+  width: 100%;
+  background-color: rgb(49, 107, 49);
+}
+
+.noBackground {
+  background: none;
+}
+.centrar-imagen {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 85vh;
+  background-image: url("img/fondoHeader");
+  background-position: center top;
+  background-attachment: scroll;
+  background-size: cover;
+}
+button {
+  background: #e9b0b0;
+  border-radius: 30%;
+  display: flex;
+  text-align: end;
+}
+.centrar-trabajo {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: brown;
+  text-align: center;
+}
+
